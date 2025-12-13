@@ -1071,3 +1071,234 @@ Day3: 6th Dec. 2025
 Next ::::
 
 		Handle the Conflicts		
+
+	
+		
+####################
+Day4: 7th Dec. 2025
+####################		
+		
+	Working with GIT Branches : - To Version Control the Source Code Changes 
+
+	Working with Git Branches :
+
+
+		- git branch 							# to get the list of branches 
+		
+		- git branch <new_branch_name>			# Create new_branch
+		
+		- git switch -c <new_branch_name>		# Create new_branch & Switch to new_branch.
+		
+		- git switch <exiting_branch_name>		# Switch to a branch
+		
+		
+			Repo1: 
+			
+				- master - cm1,cm2,cm3
+
+					git switch -c feature1				# Create new_branch & Switch to new_branch.
+					
+					feature1 :
+							cm1,cm2,cm3,f1cm1,f1cm2 	# Perform incremental changes 
+							
+						git switch master 				# Switch to master branch
+							
+						git merge feature1				# Merge command should be executed from target branch
+							
+			
+	GIT Merge Conflicts :
+
+		- When more than one user/feature try to update same file at the same level, merge conflict occurs.
+		
+		
+	Handle/Fix Merge Conflicts :
+
+		- How to fix Merge Conflicts ?
+		
+			- Identify the file(s) causing the merge conflicts
+			- Open the file and review the changes 
+			- Upon review, decide which changes to be retained/delete from that file(s).
+			- Update the file by removing the extra header/footer notes and contents.
+			- Perform git add and git commit to fix the issue.
+	
+	On DevOps Perspective :
+
+		- On DevOps Perspective, We never fix the Merge Conflict. Instead, we Prevent Merge Conflict.!
+		
+	
+	GIT :::
+		
+GIT Rebase : 
+
+		- Rebase is used to maintain linear commit history 
+		- Rebase is used to keep the current branch in-sync with target branch 
+		- Rebase can prevent merge-conflicts in the target branch 
+		- As a best practise, it is always recommended to use rebase before merge
+		
+	Repo  :
+
+		master : cm1,cm2,cm3 
+					
+					cm1,cm2,cm3,f1cm1,f1cm2,f1cm3 				# Upon Merging feature1 
+					
+					
+					cm1,cm2,cm3,f2cm1,f2cm2,f2cm3,f1cm1,f1cm2,f1cm3		# Upon Merging feature2 without proper rebase
+					
+					cm1,cm2,cm3,f1cm1,f1cm2,f1cm3,f2cm1,f2cm2,f2cm3		# Expected Commit History! using rebase!
+		
+		
+			feature1 : cm1,cm2,cm3 
+			
+						cm1,cm2,cm3,f1cm1,f1cm2,f1cm3 
+						
+						git switch master 
+						
+						git merge feature1 
+						
+			
+			feature2 : cm1,cm2,cm3 
+				
+						cm1,cm2,cm3,f2cm1,f2cm2,f2cm3 
+						
+						git rebase master 
+						
+						cm1,cm2,cm3,f1cm1,f1cm2,f1cm3,f2cm1,f2cm2,f2cm3
+						
+						
+						git switch master 
+						
+						git merge feature2		
+		
+		
+	- merge 
+	
+	- rebase 	--> Within the Repo. between the branches 
+	
+	- pull 		--> Used between the Remote & Local 
+		
+		
+
+	- GIT SQUASH :::
+	
+		- It is a merge Option. Is used to combine more than one commits into single commit point.
+		
+		
+		Repo1: 
+		
+			master: cm1,cm2 
+			
+						cm1,cm2,f1cm1,2,3,4,5,6,7,8,................f1cm100   # Upon Merge without squash option
+
+						cm1,cm2,cm3 					# Cm3 is combined changes from feature1
+			
+				feature1 : cm1,cm2 
+				
+							cm1,cm2,f1cm1,2,3,4,5,6,7,8,................f1cm100
+							
+							
+					git switch master 
+					
+					# git merge feature1 
+					
+					git merge --squash feature1 
+			
+					git commit -m "Combined Commit from feature1"
+	
+
+	- GIT STASH :::
+	
+		- Used to save the uncommited changes to a temporary area.
+		
+		
+	git stash save "save_message"	# Save an entry in stash list
+	
+	git stash list 					# Get the Stash list.
+	
+	git stash apply 				# To apply the latest entry from the stash list back to staging area. 	
+	git stash apply stash@{2}		# To apply a specific entry from the stash list back to staging area
+	
+	git stash drop 					# To delete the latest entry from the stash list.
+	git stash drop stash@{2}		# To delete a specific entry from the stash list.
+	
+	git stash pop 					
+		# To apply the latest entry from the stash list back to staging area as well as delete that latest entry from the stash list.								
+									
+	git stash pop stash@{1}	
+		# To apply a specific entry from the stash list back to staging area as well as delete that specific entry from the stash list.
+									
+	git stash clear 				# To clean-up the stash list 
+		
+	
+		
+	GitHub Remote Repository Management :::
+	
+		- Create Remote GitHub Repositories:
+		
+		- Create Branches in Github Repositories
+		
+		- Merge the changes to target branch -- using pull request 
+		
+	
+	Developers' Workload :
+	
+		--> Enhancement/Bugfix 
+		
+		--> New Project 
+		
+		
+
+	git clone 		:	To Clone/Copy the entire Remote Repository to Local Machine 
+	
+	git add 		:	To add the changes from Working Directory to Staging_Area
+	
+	git commit 		:	To commit the changes from Staging_Area to Local Repository
+	
+	git push 		:	To Push the Changes from Local Repository to Remote Repository
+	
+	git pull/Fetch 
+		
+		- Both git pull & git fetch are used to handle the incremental changes from Remote Repository
+		
+		- git Fetch :	
+			To just check the incremental changes from remote repository. If any incremental changes exist, it will update the incremental changes only in the Local Repository. Not in the Working Directory.
+
+		- git pull 	:
+			Check the incremental changes from remote repository. If any incremental changes exist, it will update the incremental changes in the Local Repository as well in the Working Directory.
+
+			As a best practise, always it is recommended to use git pull to keep the local repo in-sync with remote repository
+
+				git pull = git fetch + git merge!
+	
+
+
+
+	GIT Clone :::
+	
+		- git clone https://github.com/Edu-MLOps-BA1125/TestRepo1.git
+
+	
+		- git remote -v		# To get the list of remote repositories linked to a local repository
+		
+		
+		
+		
+		- Token Based Authentication :::
+		
+			- PAT ==> ghsdfsdfasdfasdfM0v
+		
+		
+
+Next :::
+		
+	Docker & DockerHub 
+	
+		- Manage the Container Images 
+		
+		- DockerHub to Version Control the Container Images 
+		
+	DVC 
+
+	MLFlow 
+	
+	KubeFLow 
+	
