@@ -1,0 +1,1813 @@
+MLOps: Edu 
+
+Start Date: 29th Nov. 2025
+8:30PM-11:30PM IST - SAT-SUN
+
+####################
+Day1: 29th Nov. 2025
+####################
+
+	- MLOps Introduction :::
+	
+		Github Account :
+		
+			https://github.com/
+			
+			
+	- What is DevOps ???
+	
+	SDLC : Software Development Life Cycle :
+	
+		- Requirement Analysis 
+	
+		- Designg & Document 
+		
+		- Code & Development 
+		
+		- Testing 
+		
+		- Implement to Prod
+		
+		- Monitor/Maintain 
+		
+		
+	- Waterfall: 
+		- It is Linear in fashion.
+		- It strictly follows Top-Down Approach
+	
+		- Requirement Analysis 
+	
+		- Designg & Document 
+		
+		- Code & Development 
+		
+		- Testing 
+		
+		- Implement to Prod
+		
+		- Monitor/Maintain 	
+		
+		
+	Software Applications :
+	
+		- Desktop Applications
+		- Web Applications
+		- Mobile Applications
+		- Embedded Applications
+	
+	
+			
+		- Desktop Applications	:::
+			
+			SuperMarket Billing System:
+					--> Functions/Modules 
+							- User Interface Design 
+							- Inventory Mgmt 
+							- Billing Mgmt
+							- Supplier Mgmt 
+							- Payment Mgmt 
+								- Cash Payment 
+								- Card Payment
+							
+										- Online Payment
+										- UPI Payment 
+							
+					
+	Core Project :
+	
+		- Requirement Analysis 		--> 12 Months 
+	
+		- Designg & Document 
+		
+		- Code & Development 		--> 6th Month 
+		
+		- Testing 
+		
+		- Implement to Prod
+		
+		- Monitor/Maintain
+
+
+	Enhancement Project :
+	
+		- Requirement Analysis 		
+	
+		- Designg & Document 
+		
+		- Code & Development 		
+		
+		- Testing 
+		
+		- Implement to Prod
+		
+		- Monitor/Maintain
+		
+		
+	AGILE Methodologies :::
+	
+		- Desktop Applications	:::
+			
+			SuperMarket Billing System:
+					--> Functions/Modules --> iterations  
+							- User Interface Design 
+							- Inventory Mgmt 
+							- Billing Mgmt
+							- Supplier Mgmt 
+							- Payment Mgmt 
+								- Cash Payment 
+								- Card Payment		
+
+							
+										- Online Payment
+										- UPI Payment 
+										
+	Iteration 1 : User Interface Design 
+	
+		- Requirement Analysis 		
+	
+		- Designg & Document 
+		
+		- Code & Development 		
+		
+		- Testing 
+		
+		- Implement to Prod with proper manual approvals
+		
+		- Monitor/Maintain
+		
+		
+	Iteration 2 : Inventory Mgmt
+	
+		- Requirement Analysis 		
+	
+		- Designg & Document 
+		
+		- Code & Development 		
+		
+		- Testing 
+		
+		- Implement to Prod with proper manual approvals
+		
+		- Monitor/Maintain
+		
+
+	nth Iteration : Online Payment
+	
+		- Requirement Analysis 		
+	
+		- Designg & Document 
+		
+		- Code & Development 		
+		
+		- Testing 
+		
+		- Implement to Prod with proper manual approvals
+		
+		- Monitor/Maintain
+		
+		
+	Using AGILE Methodologies:
+	
+	 - We can Achieve :
+	 
+		- Continuous Development
+		- Continuous Integration 
+		- Continuous Testing 
+		- Continuous Delivery
+			- Used to perform Production release with manual approvals.
+		
+	 - We cannot Achieve :
+	 
+		- Continuous Deployment 	
+			- Used to perform Production release without any manual approvals.
+			
+			
+	- What is DevOps ???
+	
+	- DevOps :::::
+	
+		DevOps is a Software Development Strategy, which helps to promote the collaboration between the teams like Development Team and Operations Team to achieve Continuous Development, Continuous Integration, Continuous Testing, Continuous Delivery, Continuous Deployment and Continuous Monitoring in more Automated Fashion.
+		
+			Continuous Delivery & Deployment:
+			
+				- Both Continuous Delivery & Continuous Deployment are used to release the changes from Non-Prod to Prod.
+				
+				Continuous Delivery:
+				
+					- Continuous Delivery Exepects Manual Approvals
+					- We might experience the Application Down-time
+	
+					Eg: 
+				
+					Banking Domain :
+					
+						Online Banking / Credit Card Transaction
+				
+							Create a Production Release Window:
+								4 - 6Hrs 
+								
+	
+				Continuous Deployment:
+				
+					- Never Exepects Manual Approvals	
+					- Deploy the changes to production without any down-time.
+
+					Eg:
+					
+					- Amazon/Netflix/Facebook/Google ::
+					
+						
+				
+	
+					
+	- How to Implement DevOps :::
+	
+		- Identify the Teams involved in the process of SDLC :
+		
+			- DevOps Team 
+				- Infra-Structure Management Team 
+				- Application Development Team
+				- Testing Team 
+				- Release Management Team 
+				- Production Support Team 
+				- Production Monitoring Team 
+				- IT Security 
+				
+				
+		- Environments :
+		
+			Non-Prod 									Prod Environments
+			
+				Dev Environment
+				
+				Test Environment
+				
+					QA 
+					
+					UAT 			================>		Production Servers - 1,2,3,4,5
+	
+		
+		
+		- Application Architecture :
+		
+			- Monolith Application Architecture:
+			
+				- It Tightly-Coupled Application Architecture
+				- All the dependencies are tightly coupled 
+				- With the we can achieve only Continuous Delivery.
+				- We cannot achieve Continuous Deployment
+			
+			
+			- Micro-Service Based Application Architecture: 
+			
+				- It is Loose-Coupled Application Architecture,
+				- Each and every function is considered as Micro-Service.
+				- With this we can achieve Continuous Deployment.
+				
+				
+	Devops :::
+	
+		- People
+		- Strategy/Process 
+		- Tools
+		
+	
+####################
+Day2: 30th Nov. 2025
+####################		
+	
+	MLOps Lifecycle :
+	
+	MLOps Usecase :
+	
+	Versioning :
+		
+		Version Control System using Git :
+		
+		Git Demo :
+		
+	ML Project and Packaging ML Model 
+	
+	CICD Pipeline:
+	
+		- SCM_Checkout 	==> VCS ?
+		- Application Build
+		- Create Application Artifacts 
+		- Test 
+		- Deploy 
+		
+		
+	How to Implement MLOps :::
+
+	
+		- Data Engineers		-> Prepare the Source Datasets 
+		
+		- Data Scientists 		->  Explore the datasets, analyse, check the feasibility of datasets 
+									Perform the training, tuning, and evaluate the Model
+		
+		- ML Engineers 			-> Deploy the ML Models to prod -> MLOps Strageies CICD, define best practises
+									Should have MLOps Knowledge
+		
+		- Business Stakeholders -> Bring business values using this ML Models 
+		
+		- Data Security/Governance Team  --> To Ensure data security & Governance, data privacy
+		
+		
+	ML Model Use Case :
+	
+		ML Model for Product Reviews :
+		
+		E_Commerce Application Eg. www.amazon.com
+		
+		Product Review:
+		
+		
+	CICD Pipeline:										
+		- SCM_Checkout 	==> VCS ?							 
+		- Application Build
+		- Create Application Artifacts 
+		- Test 
+		- Deploy 		
+		
+
+	Process/Lifecycle of Machine Learning Ops:::
+	
+		- Data Preparation 
+
+		- Exploratory Data Analysis (EDA)
+		
+		- Feature Engineering
+		
+		- Model Training 
+		
+		- Model Validations 
+		
+		- Model Deployment 
+		
+		- Monitoring
+		
+	MLOps Use cases:
+
+
+		- Healthcare 
+		- Finance 
+		- Retail Domain - E_Commerce
+		- Manufacturing 
+		
+		
+		
+	How to Implement MLOps :::
+	
+	- Vesioning:
+	
+	Version Control System :
+	
+		- To Version Control the Changes 
+		- To Track the Changes
+		
+	Types of VCS :
+	
+		- Centralized VCS:
+		
+		- Distributed VCS:
+		
+		GIT :
+		
+			- Git is an Open-Source Distributed VCS 
+			- To Version Control the Changes 
+			- To Track the Changes 
+			- To perform Parallel Development using Branching Techniques
+			
+	
+	
+
+	Lab Requirements:
+	
+		- Create GitHub Account 
+		
+				- https://github.com/
+		
+		- Install Git Client on Local Machine 
+			- Windows OS :
+				- Git Bash
+				- Git CMD 
+				- Git GUI 
+				
+			- Linux/Mac OS : 
+				- Terminal 
+
+
+	Git - Client install on Local Machine 
+	
+	Github - Remote Repository Server
+	
+		
+
+Next :::
+		
+		- Create AWS Free Tier Account 
+		
+		- Create DockerHub Account 
+		
+		- Install Visual Studio Code on Local Machine 
+		
+		- Install Python on Local Machine 
+		
+
+
+####################
+Day2: 30th Nov. 2025
+####################		
+	
+	MLOps Lifecycle :
+	
+	MLOps Usecase :
+	
+	Versioning :
+		
+		Version Control System using Git :
+		
+		Git Demo :
+		
+	ML Project and Packaging ML Model 
+	
+	CICD Pipeline:
+	
+		- SCM_Checkout 	==> VCS ?
+		- Application Build
+		- Create Application Artifacts 
+		- Test 
+		- Deploy 
+		
+		
+	How to Implement MLOps :::
+
+	
+		- Data Engineers		-> Prepare the Source Datasets 
+		
+		- Data Scientists 		->  Explore the datasets, analyse, check the feasibility of datasets 
+									Perform the training, tuning, and evaluate the Model
+		
+		- ML Engineers 			-> Deploy the ML Models to prod -> MLOps Strageies CICD, define best practises
+									Should have MLOps Knowledge
+		
+		- Business Stakeholders -> Bring business values using this ML Models 
+		
+		- Data Security/Governance Team  --> To Ensure data security & Governance, data privacy
+		
+		
+	ML Model Use Case :
+	
+		ML Model for Product Reviews :
+		
+		E_Commerce Application Eg. www.amazon.com
+		
+		Product Review:
+		
+		
+	CICD Pipeline:										
+		- SCM_Checkout 	==> VCS ?							 
+		- Application Build
+		- Create Application Artifacts 
+		- Test 
+		- Deploy 		
+		
+
+	Process/Lifecycle of Machine Learning Ops:::
+	
+		- Data Preparation 
+
+		- Exploratory Data Analysis (EDA)
+		
+		- Feature Engineering
+		
+		- Model Training 
+		
+		- Model Validations 
+		
+		- Model Deployment 
+		
+		- Monitoring
+		
+	MLOps Use cases:
+
+
+		- Healthcare 
+		- Finance 
+		- Retail Domain - E_Commerce
+		- Manufacturing 
+		
+		
+		
+	How to Implement MLOps :::
+	
+	- Vesioning:
+	
+	Version Control System :
+	
+		- To Version Control the Changes 
+		- To Track the Changes
+		
+	Types of VCS :
+	
+		- Centralized VCS:
+		
+		- Distributed VCS:
+		
+		GIT :
+		
+			- Git is an Open-Source Distributed VCS 
+			- To Version Control the Changes 
+			- To Track the Changes 
+			- To perform Parallel Development using Branching Techniques
+			
+	
+	
+
+	Lab Requirements:
+	
+		- Create GitHub Account 
+		
+				- https://github.com/
+		
+		- Install Git Client on Local Machine 
+		
+				- https://git-scm.com/install/windows
+				- https://git-scm.com/install/mac
+				
+			- Windows OS :
+				- Git Bash
+				- Git CMD 
+				- Git GUI 
+				
+			- Linux/Mac OS : 
+				- Terminal 
+				
+				git --version
+
+
+	Git - Client install on Local Machine 
+	
+	Github - Remote Repository Server
+	
+
+	Working with Git :::
+	
+	
+	Local Git Repository															Remote Git Repository
+	
+	
+	
+
+	
+	Tracking/Versioning ?
+	
+	
+	*.py 
+	
+	asdfasdf
+	dfasdf
+	asdfasdfasd
+	----shion
+	
+	save myMLApp1.py		===> myMLApp1.py_v1.0
+	
+	save myMLApp1.py		===> myMLApp1.py_v1.1
+	
+	save myMLApp1.py		===> myMLApp1.py_v1.2
+
+	save myMLApp1.py		===> myMLApp1.py_v1.3
+	
+	save myMLApp1.py		===> myMLApp1.py_v1.4		Latest version (Tag/Version_Number/Commit_ID)
+	
+	
+	Git File Workflow :::
+
+	Local Machine 																			Remote Server 
+	
+	Install git client 																			Github/AzRepo/gitlab
+	
+	Working_Directory 				Staging_Area 				Local_Repository				  Remote_Repsitory 
+	
+	 myMLApp1.py	 --------------> myMLApp1.py --------------> myMLApp1.py_v1.0 ----------------> myMLApp1.py_v1.0
+						git add 					git commit						  git push
+						
+	 myMLApp1.py	 --------------> myMLApp1.py --------------> myMLApp1.py_v1.1 ----------------> myMLApp1.py_v1.1
+						git add 					git commit						  git push
+	
+	
+
+
+	Developer's Workload :
+	
+		Types of Projects:
+
+			- Enhancement/Bugfix 
+			- New Project 
+			
+	
+	Git Cli Commands :
+	
+	
+	git --version
+	
+	
+	git clone 		:	To Clone/Copy the entire Remote Repository to Local Machine 
+	
+	git add 		:	To add the changes from Working Directory to Staging_Area
+	
+	git commit 		:	To commit the changes from Staging_Area to Local Repository
+	
+	git push 		:	To Push the Changes from Local Repository to Remote Repository
+	
+	git pull/Fetch 
+		
+		- Both git pull & git fetch are used to handle the incremental changes from Remote Repository
+		
+		- git Fetch :	
+			To just check the incremental changes from remote repository. If any incremental changes exist, it will update the incremental changes only in the Local Repository. Not in the Working Directory.
+
+		- git pull 	:
+			Check the incremental changes from remote repository. If any incremental changes exist, it will update the incremental changes in the Local Repository as well in the Working Directory.
+
+			As a best practise, always it is recommended to use git pull to keep the local repo in-sync with remote repository
+
+				git pull = git fetch + git merge!
+	
+	git init 		:	To initialize a local git repository
+						It will create a .git directory in the project workspace
+						It will create a default branch called master/main
+			
+			
+	Fork 			: 	To copy/backup a entire remote repository to another remote repository
+
+
+
+	Work with Cli Commands :::
+	
+	Organize the WorkSpace :::
+	
+		cd d:
+
+		mkdir MLProjects 
+		
+		cd MLProjects
+		
+		mkdir MLRepo1			# Workspace 
+		
+		mkdir MLRepo2
+		
+		cd MLRepo1
+			git init 
+	
+	
+		
+	Local Machine 															
+															
+	
+	Working_Directory 			Staging_Area 				Local_Repositor
+	
+	 file1.txt	 --------------> file1.txt --------------> file1.txt
+					git add					git commit				
+	
+	
+	
+	git status			:	To Get the status of repository
+
+	
+
+	Git Configuration ::::
+	
+		As a best practise, using git global config to setup the user name and email after initializing the first local repository.
+		
+		Global Configuration:				# Applicable to all the Repositories
+		
+			git config --global user.name "LoksaiETA"
+			
+			git config --global user.email "loksai@asdf.com"
+
+			git config --global --list
+		
+		Local Configuration:				# Applicable to a specific Repository
+	
+			git config user.name "LoksaiETA"
+			
+			git config user.email "loksai@asdf.com"	
+			
+			git config --list 
+		
+		
+	git add ::::	
+	
+		git add file1.txt 
+
+		git add file1.txt file2.txt
+		
+		git add *.doc 
+		
+		git add .							# . to select all files 
+		
+
+
+	git rm --cached 'file1.txt' 			# Unstage a file, the file changes will be back to working directory.
+	
+	git rm -f 'file1.txt' 					# Permantly Unstage and a delete a file from working directory.
+
+
+Next :::
+		
+		
+		- Git Reset / Revert 
+		
+		- Git Branches 
+		
+		- Git Branching Strategies
+				
+		- Git rebase / Merge
+		
+		- Git Remote Repositories Handling 		
+		
+		- Create AWS Free Tier Account 
+		
+		- Create DockerHub Account 
+		
+		- Install Visual Studio Code on Local Machine 
+		
+		- Install Python on Local Machine 
+		
+				
+			
+				
+				
+	
+####################
+Day3: 6th Dec. 2025
+####################
+
+	git 
+	
+	github 
+	
+	docker 
+	
+	dockerhub
+	
+	DVC 
+	
+	MLFLow 
+	
+	Kubernetes 
+	
+	KubeFLow 
+	
+	Prometheus 
+	
+
+	- git ignore :::
+	
+		- Is used ignore the files from tracking.
+		- .gitignore is a hidden file, used to maintain the file names/patterns to ignore from tracking.
+		- As a best practise, .gitignore should be the very first commit in any repository.
+		
+		
+		
+	Project_Workspace :		==> Push 
+	
+		- src 
+			- *.py
+			
+		- test 
+		
+		- config_file
+		
+		- req.txt
+		
+		- app.prop 
+		
+		- db_credentials.json
+		
+		- Secret
+		
+		
+	
+	git log ::::
+	
+		git log 
+		
+		git log --oneline
+		
+	Undo the Commited Changes :::
+	
+	Undo/Revert the Committed Changes from Local Repository :::
+
+	git reset :::
+	
+		git reset is used to undo the changes from the repository
+		git reset will reset the commit point to the previous commit point 
+		git reset will not create any new commit point for track purpose 
+		git reset is not recommended in the shared repository 
+	
+		Syntax :		
+			- git reset <reset_option> <previous_Commit_ID>
+			
+		Reset Options ::
+		
+			git reset --soft <previous_Commit_ID> :::
+				- git reset will reset the HEAD pointer to the previous commit point.
+				- It will take the changes back to staging area 
+				- The Changes will be available in staging area and working directory					
+		
+			git reset --mixed <previous_Commit_ID> :::		# Default
+				- git reset will reset the HEAD pointer to the previous commit point.
+				- It will take the changes back to working directory 
+				- The Changes will be available only in working directory			
+			
+			git reset --hard  <previous_Commit_ID> :::
+				- git reset will reset the HEAD pointer to the previous commit point.
+				- It will permanently delete the files from the system 
+			
+		
+	ML Projects ::::
+	
+		Dataset  Source :
+		
+		
+		ETL Process ::: 
+		
+			Extract 		==> 	for 30 mins  --> Raw Data ==> commited to a repository
+			
+			Transform 		==> 	Application Program to Process Data 	
+			
+			Load 			==> 	Saved to a Database 
+			
+							==>		Reset --hard pointing to initial commit (.gitignore)
+							
+	
+	Git Revert :::
+	
+	git revert :::
+	
+		- Git Revert is same as git reset --hard option 		
+		- git revert is used to undo a specific commit 		
+		- git revert will create a new commit point for tracking purpose.		
+		- git revert will maintain the commit history		
+		- git revert is recommended in shared repositories
+		
+		Syntax ::
+			git revert <specific_Commit_ID>		
+			
+	
+	GIT Commit :::
+	
+	 - git commit 					# To Commit the changes from staging area to local repository	
+
+
+			git commit -m "<Valid Commit_Message>"
+			
+			As a best practise :
+			
+			git commit -m "CR1001 - Message"
+		
+			git commit -m "REL-0126 - Payment Module updated"
+							
+							
+	Git Branches ::::
+	
+		-> Git Branches are the logical copy of the Repository/Default Branch 
+		
+		-> Used to perform parallel development 
+		
+	
+	Git Branching Strategies :::
+	
+		-> default branch - (master/main) ==> Used to maintain the production version of source.
+		
+		-> Git Branching Strategeies are used to maintain the integrity of the main/master Branch(Prod version)
+	
+	
+	Repo1 :::
+	
+		master : cm1,cm2,c3 
+		
+			feature1_branch : cm1,cm2,c3
+								cm1,cm2,c3,f1cm1,f1cm2,f1cm3,...................
+	
+	
+	
+	Scenario 1:
+	
+		Repo1 :::
+	
+			master : cm1,cm2,c3 			
+						cm1,cm2,c3,cm4 						# 'cm4' is the changes merged from feature1_branch
+			
+				feature1_branch : cm1,cm2,c3
+									cm1,cm2,c3,f1cm1,f1cm2,f1cm3
+							
+	
+	Scenario 2:
+	
+		Repo1 :::
+	
+			master : cm1,cm2,c3
+						cm1,cm2,c3,cm4 						# 'cm4' is the changes merged from Developer_Branch
+
+				Developer_Branch : cm1,cm2,c3 
+									cm1,cm2,c3,f1cm1,f1cm2,f1cm3,f2cm1,f2cm2,f2cm3
+				
+					feature1_branch : cm1,cm2,c3
+										cm1,cm2,c3,f1cm1,f1cm2,f1cm3
+					
+					feature2_branch : cm1,cm2,c3
+										cm1,cm2,c3,f2cm1,f2cm2,f2cm3
+
+	Scenario 3:
+	
+		Repo1 :::
+	
+			master : cm1,cm2,c3
+						cm1,cm2,c3,cm4 						# 'cm4' is the changes merged from Integration_Branch
+
+				Integration_Branch : cm1,cm2,c3
+										cm1,cm2,c3,Developer1_Changes,Developer2_Changes					
+				
+					Developer1_Branch : cm1,cm2,c3 
+										cm1,cm2,c3,f1cm1,f1cm2,f1cm3,f2cm1,f2cm2,f2cm3
+					
+						feature1_branch : cm1,cm2,c3
+											cm1,cm2,c3,f1cm1,f1cm2,f1cm3
+						
+						feature2_branch : cm1,cm2,c3
+											cm1,cm2,c3,f2cm1,f2cm2,f2cm3			
+
+					Developer2_Branch : cm1,cm2,c3 
+										cm1,cm2,c3,f1cm1,f1cm2,f1cm3,f2cm1,f2cm2,f2cm3
+					
+						feature1_branch : cm1,cm2,c3
+											cm1,cm2,c3,f1cm1,f1cm2,f1cm3
+						
+						feature2_branch : cm1,cm2,c3
+											cm1,cm2,c3,f2cm1,f2cm2,f2cm3	
+		
+		
+	Scenario 4:
+	
+		Repo1 :::
+	
+			master : cm1,cm2,c3
+						cm1,cm2,c3,cm4 						# 'cm4' is the changes merged from Release_Branch
+				
+				Release_Branch : cm1,cm2,c3
+									cm1,cm2,c3,Team1_Changes,Team2_Changes
+					
+						
+					Integration_Branch1 : cm1,cm2,c3														Team-1
+											cm1,cm2,c3,Developer1_Changes,Developer2_Changes					
+					
+						Developer1_Branch : cm1,cm2,c3 
+											cm1,cm2,c3,f1cm1,f1cm2,f1cm3,f2cm1,f2cm2,f2cm3
+						
+							feature1_branch : cm1,cm2,c3
+												cm1,cm2,c3,f1cm1,f1cm2,f1cm3
+							
+							feature2_branch : cm1,cm2,c3
+												cm1,cm2,c3,f2cm1,f2cm2,f2cm3			
+
+						Developer2_Branch : cm1,cm2,c3 
+											cm1,cm2,c3,f1cm1,f1cm2,f1cm3,f2cm1,f2cm2,f2cm3
+						
+							feature1_branch : cm1,cm2,c3
+												cm1,cm2,c3,f1cm1,f1cm2,f1cm3
+							
+							feature2_branch : cm1,cm2,c3
+												cm1,cm2,c3,f2cm1,f2cm2,f2cm3	
+			
+
+					Integration_Branch2 : cm1,cm2,c3														Team-2
+											cm1,cm2,c3,Developer1_Changes,Developer2_Changes					
+					
+						Developer1_Branch : cm1,cm2,c3 
+											cm1,cm2,c3,f1cm1,f1cm2,f1cm3,f2cm1,f2cm2,f2cm3
+						
+							feature1_branch : cm1,cm2,c3
+												cm1,cm2,c3,f1cm1,f1cm2,f1cm3
+							
+							feature2_branch : cm1,cm2,c3
+												cm1,cm2,c3,f2cm1,f2cm2,f2cm3			
+
+						Developer2_Branch : cm1,cm2,c3 
+											cm1,cm2,c3,f1cm1,f1cm2,f1cm3,f2cm1,f2cm2,f2cm3
+						
+							feature1_branch : cm1,cm2,c3
+												cm1,cm2,c3,f1cm1,f1cm2,f1cm3
+							
+							feature2_branch : cm1,cm2,c3
+												cm1,cm2,c3,f2cm1,f2cm2,f2cm3	
+			
+			
+
+	- Adhoc Requirements :::
+	
+		- Wotking with Hot-fix Branch :::
+		
+		
+				Repo :
+				
+						master : cm1,cm2,cm3
+						
+									cm1,cm2,cm3,cm3.1			# 'cm3.1' is the changes merged from Hot-fix_Branch
+							
+								Hot-fix_Branch : cm1,cm2,cm3,hfcm1,hfcm2,hfcm3						
+							
+									Developer_Branch : cm1,cm2,c3 
+														cm1,cm2,c3,f1cm1,f1cm2,f1cm3,f2cm1,f2cm2,f2cm3
+									
+										feature1_branch : cm1,cm2,c3
+															cm1,cm2,c3,f1cm1,f1cm2,f1cm3
+										
+										feature2_branch : cm1,cm2,c3
+															cm1,cm2,c3,f2cm1,f2cm2,f2cm3		
+			
+			
+			
+	
+	Working with Branch ::::
+	
+		Create Branch :
+		
+			git branch				# List the Branches 
+			
+			git branch feature1		# Create a branch 
+			
+			git switch -c feature1	# Create a branch and switch to new branch
+			
+			git switch feature1		# To Switch to a specific branch
+			
+			
+			Repo:
+			
+				master : cm1 
+				
+					feature1 : cm1 
+	
+								cm1,f1cm1
+								
+								git switch master 				
+								
+								
+								git merge feature1			# Should executed from the target branch
+					
+					
+					feature2
+					
+					
+					
+					feature3
+			
+			
+
+		
+		
+Next ::::
+
+		Handle the Conflicts		
+
+	
+		
+####################
+Day4: 7th Dec. 2025
+####################		
+		
+	Working with GIT Branches : - To Version Control the Source Code Changes 
+
+	Working with Git Branches :
+
+
+		- git branch 							# to get the list of branches 
+		
+		- git branch <new_branch_name>			# Create new_branch
+		
+		- git switch -c <new_branch_name>		# Create new_branch & Switch to new_branch.
+		
+		- git switch <exiting_branch_name>		# Switch to a branch
+		
+		
+			Repo1: 
+			
+				- master - cm1,cm2,cm3
+
+					git switch -c feature1				# Create new_branch & Switch to new_branch.
+					
+					feature1 :
+							cm1,cm2,cm3,f1cm1,f1cm2 	# Perform incremental changes 
+							
+						git switch master 				# Switch to master branch
+							
+						git merge feature1				# Merge command should be executed from target branch
+							
+			
+	GIT Merge Conflicts :
+
+		- When more than one user/feature try to update same file at the same level, merge conflict occurs.
+		
+		
+	Handle/Fix Merge Conflicts :
+
+		- How to fix Merge Conflicts ?
+		
+			- Identify the file(s) causing the merge conflicts
+			- Open the file and review the changes 
+			- Upon review, decide which changes to be retained/delete from that file(s).
+			- Update the file by removing the extra header/footer notes and contents.
+			- Perform git add and git commit to fix the issue.
+	
+	On DevOps Perspective :
+
+		- On DevOps Perspective, We never fix the Merge Conflict. Instead, we Prevent Merge Conflict.!
+		
+	
+	GIT :::
+		
+GIT Rebase : 
+
+		- Rebase is used to maintain linear commit history 
+		- Rebase is used to keep the current branch in-sync with target branch 
+		- Rebase can prevent merge-conflicts in the target branch 
+		- As a best practise, it is always recommended to use rebase before merge
+		
+	Repo  :
+
+		master : cm1,cm2,cm3 
+					
+					cm1,cm2,cm3,f1cm1,f1cm2,f1cm3 				# Upon Merging feature1 
+					
+					
+					cm1,cm2,cm3,f2cm1,f2cm2,f2cm3,f1cm1,f1cm2,f1cm3		# Upon Merging feature2 without proper rebase
+					
+					cm1,cm2,cm3,f1cm1,f1cm2,f1cm3,f2cm1,f2cm2,f2cm3		# Expected Commit History! using rebase!
+		
+		
+			feature1 : cm1,cm2,cm3 
+			
+						cm1,cm2,cm3,f1cm1,f1cm2,f1cm3 
+						
+						git switch master 
+						
+						git merge feature1 
+						
+			
+			feature2 : cm1,cm2,cm3 
+				
+						cm1,cm2,cm3,f2cm1,f2cm2,f2cm3 
+						
+						git rebase master 
+						
+						cm1,cm2,cm3,f1cm1,f1cm2,f1cm3,f2cm1,f2cm2,f2cm3
+						
+						
+						git switch master 
+						
+						git merge feature2		
+		
+		
+	- merge 
+	
+	- rebase 	--> Within the Repo. between the branches 
+	
+	- pull 		--> Used between the Remote & Local 
+		
+		
+
+	- GIT SQUASH :::
+	
+		- It is a merge Option. Is used to combine more than one commits into single commit point.
+		
+		
+		Repo1: 
+		
+			master: cm1,cm2 
+			
+						cm1,cm2,f1cm1,2,3,4,5,6,7,8,................f1cm100   # Upon Merge without squash option
+
+						cm1,cm2,cm3 					# Cm3 is combined changes from feature1
+			
+				feature1 : cm1,cm2 
+				
+							cm1,cm2,f1cm1,2,3,4,5,6,7,8,................f1cm100
+							
+							
+					git switch master 
+					
+					# git merge feature1 
+					
+					git merge --squash feature1 
+			
+					git commit -m "Combined Commit from feature1"
+	
+
+	- GIT STASH :::
+	
+		- Used to save the uncommited changes to a temporary area.
+		
+		
+	git stash save "save_message"	# Save an entry in stash list
+	
+	git stash list 					# Get the Stash list.
+	
+	git stash apply 				# To apply the latest entry from the stash list back to staging area. 	
+	git stash apply stash@{2}		# To apply a specific entry from the stash list back to staging area
+	
+	git stash drop 					# To delete the latest entry from the stash list.
+	git stash drop stash@{2}		# To delete a specific entry from the stash list.
+	
+	git stash pop 					
+		# To apply the latest entry from the stash list back to staging area as well as delete that latest entry from the stash list.								
+									
+	git stash pop stash@{1}	
+		# To apply a specific entry from the stash list back to staging area as well as delete that specific entry from the stash list.
+									
+	git stash clear 				# To clean-up the stash list 
+		
+	
+		
+	GitHub Remote Repository Management :::
+	
+		- Create Remote GitHub Repositories:
+		
+		- Create Branches in Github Repositories
+		
+		- Merge the changes to target branch -- using pull request 
+		
+	
+	Developers' Workload :
+	
+		--> Enhancement/Bugfix 
+		
+		--> New Project 
+		
+		
+
+	git clone 		:	To Clone/Copy the entire Remote Repository to Local Machine 
+	
+	git add 		:	To add the changes from Working Directory to Staging_Area
+	
+	git commit 		:	To commit the changes from Staging_Area to Local Repository
+	
+	git push 		:	To Push the Changes from Local Repository to Remote Repository
+	
+	git pull/Fetch 
+		
+		- Both git pull & git fetch are used to handle the incremental changes from Remote Repository
+		
+		- git Fetch :	
+			To just check the incremental changes from remote repository. If any incremental changes exist, it will update the incremental changes only in the Local Repository. Not in the Working Directory.
+
+		- git pull 	:
+			Check the incremental changes from remote repository. If any incremental changes exist, it will update the incremental changes in the Local Repository as well in the Working Directory.
+
+			As a best practise, always it is recommended to use git pull to keep the local repo in-sync with remote repository
+
+				git pull = git fetch + git merge!
+	
+
+
+
+	GIT Clone :::
+	
+		- git clone https://github.com/Edu-MLOps-BA1125/TestRepo1.git
+
+	
+		- git remote -v		# To get the list of remote repositories linked to a local repository
+		
+		
+		
+		
+		- Token Based Authentication :::
+		
+			- PAT ==> ghsdfsdfasdfasdfM0v
+		
+		
+
+Next :::
+		
+	Docker & DockerHub 
+	
+		- Manage the Container Images 
+		
+		- DockerHub to Version Control the Container Images 
+		
+	DVC 
+
+	MLFlow 
+	
+	KubeFLow 
+
+
+
+#####################
+Day-5: 13th Dec. 2025
+#####################	
+
+	- Packaging the ML Project :::
+	
+	- Docker ->
+		
+	- Containerization :::
+		- Docker & DockerHub 
+		
+	- DVC => Version Control the ML Dataset 
+	
+	- AWS S3 Buckets ==> To Manage the ML Dataset ==> git & github  ===> DVC & AWS S3.
+	
+	- ML Project 
+		- Python -> Streamlit, Flask, Fast API		
+		
+	- github actions -> CI/CD Pipeline 
+	
+		- MLFlow 
+		
+	- End-to-End CICD MLOps Pipeline using github-actions  
+	
+	- AWS Sagemaker
+		
+		
+Containerization using Docker ::::	To Package the ML Model!
+
+	- Containerization ::::
+	
+		- Is a process of packaging the Application along with the dependencies.
+		
+	- Docker is Container Engine :
+		- Is to Create/Manage the Container Images and Containers
+		
+	Terminologies :::
+	
+		- Docker Engine :	Is to Create/Manage the Container Images and Containers
+		
+		- Container Images :	
+				- Is a static File, that define the dependencies to package the Application
+				- It is Non-Executable
+				- It composed of many Layer of Instruction
+				
+		- Container :
+				- Is an Executable unit of Container Images.
+		
+		- Container Registry :
+				- Used to Version the Container Images. 
+				- DockerHub*** / ECR / ACR / GCR 
+				- Create a DockerHub Account
+		
+		- Container Repository :
+				- Sub-set of Container Registry
+		
+		Dev Environment:		
+		
+			*.java 		
+					
+			github:						Artifactory Library			Container Registry
+											Jfrog						DockerHub 
+
+				*.java_V1.0		==> 	*.war_v1.0				==> 	mywebapp_img:v1.0
+				*.java_V1.1		==> 	*.war_v1.1              ==> 	mywebapp_img:v1.1
+				*.java_V1.2		==> 	*.war_v1.2              ==> 	mywebapp_img:v1.2
+				*.java_V1.3		==> 	*.war_v1.3              ==> 	mywebapp_img:v1.3
+				
+			DVC & AWS-S3/Azure Disk/G Volume
+			
+				==> Maintain the Version of ML Datasets.
+		
+	Virtual Machine :::
+	
+		- VMs are called as Hardware Level Virtualization
+		- VMs are created using Hypervisor
+		- VMs are used to Execute the Operating System 
+		- VMs will continue to execute, even if there no Active Task/Application.
+		- VMs consume more space and time to startup the Application
+	
+	Container :::	
+
+		- Containers are called as OS Level Virtualization
+		- Containers are created using Container Engine like Docker
+		- Containers are used to Execute the Task/Application. Not Operating System 
+		- Containers will go to EXIT State, if there no Active Task/Application.
+		- Containers consume less space and time to startup the Application	
+		
+		- Containers run in it's own dedicated/Isolated Address space.
+		
+		- Containers uses the properties of Underlying Operating System
+		
+			Kernel :
+				- Namespace 
+				- Control Group
+		
+	Work with Docker :::
+	
+		1. Explore DockerHub Images 
+		
+		2. Work with Container Images & Containers using Docker CLI Commands. 
+		
+		3. Create Container Images 
+		
+		4. Publish to Container Registry 
+		
+
+		- Create DockerHub Account 			# https://hub.docker.com/
+		
+		- Install Docker Engine on Build Environment
+		
+			- Use AWS EC2 instance - Create Ubuntu Machine 
+			
+			- Login to AWS EC2 Instance using SSH Agent 
+			
+			- Install Docker Engine
+		
+
+	- Access AWS Cloud Platform :::
+	
+	Access AWS Cloud ! 
+	
+		- Create AWS Free Tier Account !		
+		
+			# https://aws.amazon.com/console/
+			# https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-creating.html
+				
+			==> Active Email_ID 
+			==> Active Mobile Number 
+			==> Active Credit/Debit Card - Enabled with International Transactions 
+			
+	Upon Creating an Account :
+
+	Login to AWS Console:
+	
+		- Email_ID 			# AWS root user ID.
+		
+		- Login as a root user.
+	
+			- EMail_ID 
+			- Password 
+			
+	
+	- Launch an EC2 Instance - VM 
+	
+	
+	- Connect & Loginc to EC2 Instance :::
+	
+		- EC2 Instance Connect Option 		# Thru Web Browser 
+		
+		- SSH Agent 		# Windows users 
+			- MobaXterm 	# https://mobaxterm.mobatek.net/download-home-edition.html
+			- Putty 
+			
+		- Terminal			# Mac/Linux User
+		
+	
+	- Install Docker Engine & work with Docker cli commands :::
+	
+	
+	sudo -i 
+	
+	apt update -y 
+	
+	apt install docker.io -y 
+	
+	- Work with Docker Cli Commands :::
+
+	docker --version 
+	
+	docker images 		# To get list of Docker Images in the Local Machine
+	
+	docker ps			# To get the list of Active Containers 
+	
+	docker ps -a 		# To get the list of of Active & Inactive Container 
+	
+	Use DockerHub and working with existing Images :::
+	
+	docker pull <image_name>			# Download an Image from Container Registry
+	
+	docker pull <image_name>:<Version_No>
+	
+	docker run <image_name>				# Create Container & Execute
+	
+	Container Execution Modes :
+	
+		1. Foreground Mode/Attached Mode :			# Default Mode 
+		
+			- docker run ubuntu sleep 20 
+		
+		2. Background Mode/Detached Mode :
+
+			- docker run -d ubuntu sleep 20 
+			
+		3. Interactive Mode :
+		
+			- docker run -it ubuntu bash 
+			
+				- exit 					
+				
+	
+	docker start <Container_ID>
+	
+	docker exec -it <Container_ID> bash 			# Login to the Running Container
+	
+		- exit										# Just Log-off  		
+	
+	docker stop <Container_ID>
+	
+	
+	- Create an Application Images
+	
+	- Push that Image to Container Registry 
+	
+	- Pull to any target Machine and Create Container
+	
+	
+	How to Create a Container Image :::
+	
+	- Using Docker Build Command :
+		- Pre-Requisites : Dockerfile 
+	
+		Syntax :
+			docker build -t <Container_Repository_Name>/New_Image_Name:<v1.0> .	# "." denotes the Dockerfile ref.
+		
+		- docker build -t loksaieta/AppImg:v1.0 .
+	
+	- Create Dockerfile :::
+	
+		FROM ubuntu 
+		RUN apt update -y 
+		RUN apt install git -y 
+		RUN apt install nginx -y 
+		
+	
+	Dockerfile Instructions :
+	
+			FROM 									# To Identify the Base Image
+			RUN 									# To run the package manager
+			COPY 									# To Copy the file from host volume to container volume
+			CP 										# To Copy the file within the container volumes 
+			ADD 									# To Copy the file from Host Volume as well as from URL
+			ENV 									# To define the Environment Variable 
+			ARG 									# To pass Arguements to the Steps in Dockerfile 
+			EXPOSE									# To Define the Container Port 
+			WORKDIR									# To set the current working directory within the Container 
+			CMD										# To set the default start-up command to the container 
+													  This Command can be changed at run-time.
+			ENTRYPOINT								# To set the default start-up command to the container 
+													  This Command cannot be changed at run-time.	
+	
+	Docker Build :::
+
+
+Next :::
+	
+	Docker Push :::
+	
+		- To Publish the Image to Container Registry :::
+		
+		-> DockerHub Login User Name 
+		
+		-> DockerHub User's PAT - Access Token 
+		
+			- Create Access Token On DockerHub 
+		
+	- Port Mapping : Access the Container Application 
+
+
+	
+######################
+Day-6: 14th Dec. 2025
+######################	
+
+
+	-> Publish the new Version of Docker Images to DockerHub :::
+	
+		DockerHub :
+		
+			Login to DockerHub using Docker Cli Command :
+			
+				docker login	:
+				
+					DockerHub Login ID 			docker login -u loksaieta
+					DockerHub Access Token		sdfsdfsdfsdfs
+					
+					
+					
+			docker push <Container_Repository_Name>/New_Image_Name:<v1.0>
+	
+	
+	-> Port Mapping!
+	
+		- Is used to expose the Application running inside the container to Internet.
+		
+		
+			Tomcat WAS: Java Web Projects 		8080
+			
+			Streamlit WAS : ML Projects 		8501
+			
+			
+			docker run -p 8080:8501 <image_name> 
+			
+			docker run -it <image_name> 
+			
+			
+			-p <host_port>:<container_port>
+			
+			
+			
+	
+
+
+
+		-> Web Application :
+		
+			ML Model:
+			
+				chatbot 
+				
+				Amazon Review 
+				
+				
+				
+			github:						Artifactory Library			Container Registry
+											Jfrog						DockerHub 
+
+				*.java_V1.0		==> 	*.war_v1.0				==> 	mywebapp_img:v1.0
+				*.java_V1.1		==> 	*.war_v1.1              ==> 	mywebapp_img:v1.1
+				*.java_V1.2		==> 	*.war_v1.2              ==> 	mywebapp_img:v1.2
+				*.java_V1.3		==> 	*.war_v1.3              ==> 	mywebapp_img:v1.3
+				
+	DVC :::	 https://dvc.org/
+	
+	
+	DVC & AWS-S3/Azure Disk/G Volume
+			
+		==> Maintain the Version of ML Datasets.
+		
+		--> Virtual Environment :::
+		
+				To create an isolated platform to work on ML Projects 
+				
+				1. MLProject - DVC ==> S3 Bucket   # Create Venv1	==> Proj1/			
+					
+				
+				2. MLProject - DVC ==> GDrive 		# Create Venv2	==> Proj2/
+				
+				
+				git (Version Control Source Code)		<===>			dvc (Version Control ML Datasets)
+				
+				github(Remote-Repo)										S3/Azure Disk/GDrive/Persistant Volumes
+				
+		--> Install in Dev/Build Environment :::
+		
+		
+	Working with DVC :::
+	
+	Pre-Requisites :
+	
+		--> AWS EC2 Ubuntu Instance :::
+		
+		--> AWS S3 Bucket ::: 
+		
+		--> AWS Cli => AWS Access & Secret Key to Enable Authentication / IAM Role attached to EC2 Instance
+		
+		--> 
+		
+	1. Login to AWS Console & Create S3 Bucket :::			Bucket ::: loksai-edu-mlproject1
+	
+		
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::loksai-edu-mlproject1/*"
+        }
+    ]
+}
+		
+		IAM Role: loksai-edu-mlproject1-s3role
+		
+		Launch EC2 Instance attach IAM Role
+		
+		
+Login to EC2 Instance :::::
+
+sudo -i 
+
+1️⃣ Update system
+
+sudo apt update -y
+
+
+# To Setup AWS CLI ::::
+
+
+sudo apt install -y unzip curl
+
+2️⃣ Download AWS CLI v2
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+3️⃣ Unzip installer
+unzip awscliv2.zip
+
+4️⃣ Install AWS CLI
+sudo ./aws/install
+
+5️⃣ Verify Installation
+aws --version
+
+
+Expected output:
+
+aws-cli/2.x.x Python/3.x Linux/x86_64
+
+
+✔ AWS CLI installed successfully
+
+
+# To Setup EC2 Instance with AWS ::::
+
+
+
+
+1.2 Install Required Tools
+
+sudo apt update -y 
+
+sudo apt install -y \
+  python3.12 python3.12-venv python3-pip
+  
+  
+
+1.3 Configure AWS CLI
+
+aws configure
+
+
+Provide:
+
+Access Key	:	
+
+Secret Key	:
+
+Region (e.g. ap-south-1)
+
+Output format: json
+
+2️⃣ ENTER PROJECT & CREATE VENV
+
+
+python3.12 -m venv venv
+
+source venv/bin/activate
+
+
+pip install dvc_s3									# Install DVC-s3 
+
+
+
+mkdir dir1 
+
+git init 
+
+dvc init 
+
+dvc remote add -d myremote s3://loksai-edu-mlproject1
+
+
+
+dvc push 
+
+
+deactivate 
+
+dvc pipeline :
+
+	dvc repro 		# Reproduce 
+
+	1. DVC is used to manage the Input Dataset for Model Training 
+	
+	2. dvc repro 		# Reproduce  ==> Train the Model 
+
+	3. Trained Model ==> ML Artifacts ==> model.joblib / pickle 
+	
+	4. Used DVC to maintain the Artifacts - S3 
+	
+	5. Use that artifacts and dependencies to create Dockerfile and create Docker Image 
+	
+	
+Next :	
+	MLFLow :::
+	
+	Kubeflow :::
+	
+	ML Application Tools -> Web Applications/API --> Streamlit 
+	
+
+ML_Model
+	-> ML Artifacts :::		Trained Model 
+
+		
